@@ -14,7 +14,7 @@ class Gameplay extends Phaser.Scene {
         this.comboCount = 0;
         this.comboTimer = null;
         this.comboText = null;
-        this.lives = 3;
+        this.lives = 9;
     }
     
     preload() {
@@ -57,7 +57,7 @@ class Gameplay extends Phaser.Scene {
         this.catIsActive = false;
         
         // Keep track of lives internally instead of using LifeDisplay
-        this.lives = 3;
+        this.lives = 9;
         
         // Create score display at the top with animation
         this.createEnhancedScoreDisplay(centerX, height);

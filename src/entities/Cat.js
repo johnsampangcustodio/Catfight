@@ -11,7 +11,7 @@ class Cat extends Phaser.Physics.Arcade.Sprite {
         this.body.setDamping(true);
         this.body.setDrag(0.8, 0.8); // Slightly less drag for more fluid movement
         this.body.setBounce(0.3, 0.3); // More bounce for playful feel
-        this.body.setMass(7); // Slightly lighter for better responsiveness
+        this.body.setMass(10.5); // Increased by 50% from 7 for more strength
         this.body.setCircle(this.width * 0.35); // Better collision circle
         
         // Movement properties
