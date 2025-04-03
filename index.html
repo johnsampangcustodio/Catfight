@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Catfight</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Phaser 3 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+
+    <!-- Game Scripts -->
+    <script src="src/entities/Cat.js"></script>
+    <script src="src/entities/Dog.js"></script>
+    
+    <script src="src/helpers/collision.js"></script>
+    <script src="src/helpers/movement.js"></script>
+    
+    <script src="src/ui/ScoreDisplay.js"></script>
+    <script src="src/ui/LifeDisplay.js"></script>
+    
+    <script src="src/scenes/OpeningScreen.js"></script>
+    <script src="src/scenes/LoadingScreen.js"></script>
+    <script src="src/scenes/FightScreen.js"></script>
+    <script src="src/scenes/Gameplay.js"></script>
+    <script src="src/scenes/DeathScreen.js"></script>
+    
+    <script src="src/game.js"></script>
+</body>
+</html> 
